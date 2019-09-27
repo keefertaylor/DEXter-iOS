@@ -21,8 +21,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       wallet: wallet
     )
 
+    let exchangeContractViewController = ExchangeContractViewController(
+      tezosNodeClient: tezosNodeClient,
+      exchangeContractAddress: .exchangeContract,
+      wallet: wallet
+    )
+
     let contractSelectorViewController = ContractSelectorViewController(
-      tokenContractViewController: tokenContractViewController
+      tokenContractViewController: tokenContractViewController,
+      exchangeContractViewController: exchangeContractViewController
     )
 
     let navController = UINavigationController(rootViewController: contractSelectorViewController)

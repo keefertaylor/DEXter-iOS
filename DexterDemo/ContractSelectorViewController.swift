@@ -6,10 +6,16 @@ class ContractSelectorViewController: UIViewController {
   private let contractSelectorView: ContractSelectorView
 
   private let tokenContractViewController: TokenContractViewController
+  private let exchangeContractViewController: ExchangeContractViewController
 
-  public init(tokenContractViewController: TokenContractViewController) {
+  public init(
+    tokenContractViewController: TokenContractViewController,
+    exchangeContractViewController: ExchangeContractViewController
+  ) {
     self.contractSelectorView = ContractSelectorView()
+
     self.tokenContractViewController = tokenContractViewController
+    self.exchangeContractViewController = exchangeContractViewController
 
     super.init(nibName: nil, bundle: nil)
 
@@ -39,5 +45,6 @@ extension ContractSelectorViewController: ContractSelectorViewDelegate {
   }
 
   public func contractSelectorViewRequestedOpenExchangeContract(_ contractSelectorView: ContractSelectorView) {
+    self.navigationController?.pushViewController(exchangeContractViewController, animated: true)
   }
 }

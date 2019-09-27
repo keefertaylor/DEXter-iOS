@@ -16,8 +16,6 @@ public class TokenContractView: UIView {
   private let contractAddressLabel: UILabel
   private let addressLabel: UILabel
   private let getBalanceButton: UIButton
-  private let transferTargetLabel: UILabel
-  private let transferBalanceLabel: UILabel
   private let transferButton: UIButton
 
   public init(tokenContractAddress: Address, walletAddress: Address) {
@@ -42,32 +40,17 @@ public class TokenContractView: UIView {
 
     let getBalanceButton = UIButton.button(with: "Get Balance")
 
-    let transferTargetLabel = UILabel()
-    transferTargetLabel.text = "Transfer To:\ntz1XarY7qEahQBipuuNZ4vPw9MN6Ldyxv8G3"
-    transferTargetLabel.numberOfLines = 2
-    transferTargetLabel.textAlignment = .center
-    transferTargetLabel.textColor = .tezosBlue
-
-    let transferBalanceLabel = UILabel()
-    transferBalanceLabel.text = "Tokens To Transfer: 1"
-    transferBalanceLabel.textAlignment = .center
-    transferBalanceLabel.textColor = .tezosBlue
-
-    let transferButton = UIButton.button(with: "Get Balance")
+    let transferButton = UIButton.button(with: "Transfer Tokens")
 
     self.addressLabel = addressLabel
     self.contractAddressLabel = contractAddressLabel
     self.getBalanceButton = getBalanceButton
-    self.transferTargetLabel = transferTargetLabel
-    self.transferBalanceLabel = transferBalanceLabel
     self.transferButton = transferButton
 
     stackView.frame = UIScreen.main.bounds
     stackView.addArrangedSubview(contractAddressLabel)
     stackView.addArrangedSubview(addressLabel)
     stackView.addArrangedSubview(getBalanceButton)
-    stackView.addArrangedSubview(transferTargetLabel)
-    stackView.addArrangedSubview(transferBalanceLabel)
     stackView.addArrangedSubview(transferButton)
 
     self.stackView = stackView

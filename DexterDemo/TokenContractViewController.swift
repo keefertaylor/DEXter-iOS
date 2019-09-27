@@ -41,26 +41,6 @@ class TokenContractViewController: UIViewController {
 
     self.navigationItem.title = "Token Contract"
   }
-
-  private func showAlert(title: String, message: String) {
-    let alert = UIAlertController(
-      title: title,
-      message: message,
-      preferredStyle: .alert
-    )
-
-    let dismissAction = UIAlertAction(
-      title: "Got it!",
-      style: .default
-    )
-    alert.addAction(dismissAction);
-    self.present(alert, animated: true, completion: nil)
-  }
-
-  /// Show a generic error.
-  private func showError() {
-    self.showAlert(title: "Error", message: "Try again later.")
-  }
 }
 
 // MARK: - TokenContractViewDelegate
@@ -70,9 +50,10 @@ extension TokenContractViewController: TokenContractViewDelegate {
     self.tokenContractClient.getTokenBalance(address: wallet.address) { result in
       switch result {
       case .success(let balance):
+        self.showSimpleAlert(title: "Balance in Tokens", message: "\(balance)")
         print("balance: \(balance)")
       case .failure(let error):
-        print("error: \(error)")
+        self.showError(error: "\(error)")
       }
     }
   }
@@ -86,9 +67,9 @@ extension TokenContractViewController: TokenContractViewDelegate {
     ) { result in
       switch result {
       case .success(let hash):
-        print("Transfered with hash: \(hash)")
+        self.showHashAlert(hash: hash)
       case .failure(let error):
-        print("error: \(error)")
+        self.showError(error: "\(error)")
       }
     }
   }
