@@ -1,0 +1,15 @@
+name: DexterDemo
+settings:
+  LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(PROJECT_DIR)/Carthage/Build/iOS"
+targets:
+  DEXterDemo:
+    type: application
+    platform: iOS
+    sources: [DexterDemo]
+    scheme:
+    dependencies:
+      - carthage: TezosKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.keefertaylor.DEXterDemo
+        INFOPLIST_FILE: DexterDemo/Info.plist
