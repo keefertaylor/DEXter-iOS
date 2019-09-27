@@ -1,3 +1,5 @@
+![](./DEXter1.png)
+
 # DEXter-iOS
 
 An iOS specific implementation of the DEXter exchange, a uniswap inspired exchange developed by [CamlCase](http://camlcase.io). Dexter is based off of [TezosKit](http://github.com/keefertaylor/TezosKit), an iOS SDK for the Tezos blockchain.
