@@ -75,7 +75,7 @@ public class TokenContractView: UIView {
     super.init(frame: CGRect.zero)
 
     getBalanceButton.addTarget(self, action: #selector(getBalancePressed), for: .touchUpInside)
-    getBalanceButton.addTarget(self, action: #selector(transferPressed), for: .touchUpInside)
+    transferButton.addTarget(self, action: #selector(transferPressed), for: .touchUpInside)
 
     self.backgroundColor = .white
 

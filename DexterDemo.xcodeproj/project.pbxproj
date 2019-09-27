@@ -12,6 +12,8 @@
 		774F3673233DBC5300E1221E /* Address+ContractAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F3672233DBC5300E1221E /* Address+ContractAddress.swift */; };
 		774F3675233DBEBC00E1221E /* UIColor+TezosKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F3674233DBEBC00E1221E /* UIColor+TezosKit.swift */; };
 		774F3677233DBF2A00E1221E /* UIButton+TezosKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F3676233DBF2A00E1221E /* UIButton+TezosKit.swift */; };
+		774F367A233DC89700E1221E /* ContractSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F3678233DC89700E1221E /* ContractSelectorView.swift */; };
+		774F367B233DC89700E1221E /* ContractSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774F3679233DC89700E1221E /* ContractSelectorViewController.swift */; };
 		845AEF68134F624C675E0E8F060394C6 /* TokenContractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7653A596A3F8B920CCC368090D4CF04F /* TokenContractViewController.swift */; };
 		E36AF4C6BCBCBD67B8C465ACAC813FAF /* TokenContractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9BD162D9C0A1EA6FB74F11F63EF3B /* TokenContractView.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 		774F3672233DBC5300E1221E /* Address+ContractAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Address+ContractAddress.swift"; sourceTree = "<group>"; };
 		774F3674233DBEBC00E1221E /* UIColor+TezosKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+TezosKit.swift"; sourceTree = "<group>"; };
 		774F3676233DBF2A00E1221E /* UIButton+TezosKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+TezosKit.swift"; sourceTree = "<group>"; };
+		774F3678233DC89700E1221E /* ContractSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractSelectorView.swift; sourceTree = "<group>"; };
+		774F3679233DC89700E1221E /* ContractSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractSelectorViewController.swift; sourceTree = "<group>"; };
 		A3E145BEB909297891E750E79B38412A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4411D3078EDEE9B5BE91C77EBF69DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +93,8 @@
 				774F3672233DBC5300E1221E /* Address+ContractAddress.swift */,
 				A4411D3078EDEE9B5BE91C77EBF69DB5 /* Info.plist */,
 				1EE9BD162D9C0A1EA6FB74F11F63EF3B /* TokenContractView.swift */,
+				774F3678233DC89700E1221E /* ContractSelectorView.swift */,
+				774F3679233DC89700E1221E /* ContractSelectorViewController.swift */,
 				7653A596A3F8B920CCC368090D4CF04F /* TokenContractViewController.swift */,
 				774F3674233DBEBC00E1221E /* UIColor+TezosKit.swift */,
 				774F3676233DBF2A00E1221E /* UIButton+TezosKit.swift */,
@@ -168,6 +174,8 @@
 				774F3673233DBC5300E1221E /* Address+ContractAddress.swift in Sources */,
 				774F3677233DBF2A00E1221E /* UIButton+TezosKit.swift in Sources */,
 				E36AF4C6BCBCBD67B8C465ACAC813FAF /* TokenContractView.swift in Sources */,
+				774F367A233DC89700E1221E /* ContractSelectorView.swift in Sources */,
+				774F367B233DC89700E1221E /* ContractSelectorViewController.swift in Sources */,
 				774F3675233DBEBC00E1221E /* UIColor+TezosKit.swift in Sources */,
 				845AEF68134F624C675E0E8F060394C6 /* TokenContractViewController.swift in Sources */,
 			);

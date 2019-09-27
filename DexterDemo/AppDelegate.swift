@@ -20,8 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       tokenContractAddress: .tokenContract,
       wallet: wallet
     )
-    let navController = UINavigationController(rootViewController: tokenContractViewController)
+
+    let contractSelectorViewController = ContractSelectorViewController(
+      tokenContractViewController: tokenContractViewController
+    )
+
+    let navController = UINavigationController(rootViewController: contractSelectorViewController)
     navController.navigationBar.barTintColor = .tezosBlue
+    navController.navigationBar.tintColor = .white
+    let textAttributes = [ NSAttributedString.Key.foregroundColor: UIColor.white ]
+    navController.navigationBar.titleTextAttributes = textAttributes
 
     window.rootViewController = navController
     window.makeKeyAndVisible()
