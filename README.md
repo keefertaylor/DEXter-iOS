@@ -1,10 +1,10 @@
-![](./DEXter1.png)
-
 # DEXter-iOS
 
-An iOS specific implementation of the DEXter exchange, a uniswap inspired exchange developed by [CamlCase](http://camlcase.io). Dexter is based off of [TezosKit](http://github.com/keefertaylor/TezosKit), an iOS SDK for the Tezos blockchain.
+<img src="https://github.com/keefertaylor/DEXter-iOS/blob/master/DEXter1.png" width="200"><img src="https://github.com/keefertaylor/DEXter-iOS/blob/master/DEXter2.png" width="200"><img src="https://github.com/keefertaylor/DEXter-iOS/blob/master/DEXter3.png" width="200"><img src="https://github.com/keefertaylor/DEXter-iOS/blob/master/DEXter4.png" width="200"><img src="https://github.com/keefertaylor/DEXter-iOS/blob/master/DEXter5.png" width="200"><img src="https://github.com/keefertaylor/DEXter-iOS/blob/master/DEXter6.png" width="200"><img src="https://github.com/keefertaylor/DEXter-iOS/blob/master/DEXter7.png" width="200">
 
-Additional Reading
+A Swift (iOS, MacOS) implementation of the DEXter exchange, powered by [TezosKit](http://github.com/keefertaylor/TezosKit). DEXter is a uniswap inspired exchange developed by [CamlCase](http://camlcase.io).
+
+**Additional Reading**
 - [TezosKit](http://github.com/keefertaylor/TezosKit): An iOS SDK for the Tezos blockchain
 - [DEXter](https://gitlab.com/camlcase-dev/dexter): A decentralized exchange built on the Tezos blockchain.
 
