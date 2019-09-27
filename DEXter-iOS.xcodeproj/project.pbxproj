@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D82348EDC811718B52089759B2AA0D /* UIColor+TezosKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA857FFF3837AD52B4A1056F2731DD49 /* UIColor+TezosKit.swift */; };
+		2236205603D5FB7E3F828F88EDD6A011 /* TokenContractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF93E4637FE6D37CA02307BA71D94A64 /* TokenContractView.swift */; };
+		4D4DD0C754693B5AC5F6091C973A23FB /* TokenContractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D6E0D1FEF0B57A108CE880C96DEBF /* TokenContractViewController.swift */; };
+		53F5AA7C2C5BC034B68F651C8AAAF8DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E1CCAD5D304883F828AC696F5EECFC /* AppDelegate.swift */; };
+		5A1E62FB38F3AF8DFA76336592F2E173 /* UIButton+TezosKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C12FC583CBA730EE8D8FADCB68C995 /* UIButton+TezosKit.swift */; };
+		5E2844182C3365AAE9166089318C77FA /* TezosKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5E70C6CD28AD653D86C361333F1CCA /* TezosKit.framework */; };
+		70E5B6DA7EC0FEBD88689CE595097092 /* ContractSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FC18D2B1FF1EBF1B9BBAFD36EECA5E /* ContractSelectorView.swift */; };
+		B4B644A5CD769CFBB5DD6772CBB78B96 /* UIViewController+UIAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F1B1A7ECD8E3F406E31856BF93A940 /* UIViewController+UIAlert.swift */; };
+		C486272FB8B5EEF1035A0B41872256D4 /* ExchangeContractView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987A0CEA9A331D4A092D7B2D60BCB5B2 /* ExchangeContractView.swift */; };
+		C9696AF689A33FE9A0CF270F897DFAD0 /* ExchangeContractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD5A8D5B2787641F5CF9213E4FDE10C /* ExchangeContractViewController.swift */; };
+		CC22D0701C0DB3C47E8E707EF3F15BDC /* Address+ContractAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA6023AAD9D3BD4DCE928FC040C9E8 /* Address+ContractAddress.swift */; };
+		ED0D8688A093E86E989A002EB431A0C4 /* ContractSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5252A77F01D32E25D0142CB2736DA /* ContractSelectorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01E1CCAD5D304883F828AC696F5EECFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12EA6023AAD9D3BD4DCE928FC040C9E8 /* Address+ContractAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address+ContractAddress.swift"; sourceTree = "<group>"; };
+		1A5E70C6CD28AD653D86C361333F1CCA /* TezosKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TezosKit.framework; sourceTree = "<group>"; };
+		30B1553DAA21BB4A2A25676FFC4AE0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C12FC583CBA730EE8D8FADCB68C995 /* UIButton+TezosKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+TezosKit.swift"; sourceTree = "<group>"; };
+		478D6E0D1FEF0B57A108CE880C96DEBF /* TokenContractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenContractViewController.swift; sourceTree = "<group>"; };
+		53FC18D2B1FF1EBF1B9BBAFD36EECA5E /* ContractSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractSelectorView.swift; sourceTree = "<group>"; };
+		570E267A5F93389D3E8315BF3020EF07 /* DEXterDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DEXterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		987A0CEA9A331D4A092D7B2D60BCB5B2 /* ExchangeContractView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeContractView.swift; sourceTree = "<group>"; };
+		A7A5252A77F01D32E25D0142CB2736DA /* ContractSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractSelectorViewController.swift; sourceTree = "<group>"; };
+		B3F1B1A7ECD8E3F406E31856BF93A940 /* UIViewController+UIAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+UIAlert.swift"; sourceTree = "<group>"; };
+		DAD5A8D5B2787641F5CF9213E4FDE10C /* ExchangeContractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeContractViewController.swift; sourceTree = "<group>"; };
+		DF93E4637FE6D37CA02307BA71D94A64 /* TokenContractView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenContractView.swift; sourceTree = "<group>"; };
+		FA857FFF3837AD52B4A1056F2731DD49 /* UIColor+TezosKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+TezosKit.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA34CA5948A895BC5859AA46DC4378ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2844182C3365AAE9166089318C77FA /* TezosKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F5F3737471B7A64FF5E2846A5574873 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1A5E70C6CD28AD653D86C361333F1CCA /* TezosKit.framework */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		461A175BBF32F6588297F688567469A4 = {
+			isa = PBXGroup;
+			children = (
+				C6C4F1029EEDB8720AB003A5D4EFA064 /* DEXter-iOS */,
+				F9E83702C3BB161CE3DB99A6539D995A /* Frameworks */,
+				D850BF6801A0CB26E9D4E33CAB54D22E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A473C1AF1B99F4DFE6950D13CC3C93A /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				3F5F3737471B7A64FF5E2846A5574873 /* iOS */,
+			);
+			name = Carthage;
+			path = Carthage/Build;
+			sourceTree = "<group>";
+		};
+		C6C4F1029EEDB8720AB003A5D4EFA064 /* DEXter-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				12EA6023AAD9D3BD4DCE928FC040C9E8 /* Address+ContractAddress.swift */,
+				01E1CCAD5D304883F828AC696F5EECFC /* AppDelegate.swift */,
+				53FC18D2B1FF1EBF1B9BBAFD36EECA5E /* ContractSelectorView.swift */,
+				A7A5252A77F01D32E25D0142CB2736DA /* ContractSelectorViewController.swift */,
+				987A0CEA9A331D4A092D7B2D60BCB5B2 /* ExchangeContractView.swift */,
+				DAD5A8D5B2787641F5CF9213E4FDE10C /* ExchangeContractViewController.swift */,
+				30B1553DAA21BB4A2A25676FFC4AE0FD /* Info.plist */,
+				DF93E4637FE6D37CA02307BA71D94A64 /* TokenContractView.swift */,
+				478D6E0D1FEF0B57A108CE880C96DEBF /* TokenContractViewController.swift */,
+				37C12FC583CBA730EE8D8FADCB68C995 /* UIButton+TezosKit.swift */,
+				FA857FFF3837AD52B4A1056F2731DD49 /* UIColor+TezosKit.swift */,
+				B3F1B1A7ECD8E3F406E31856BF93A940 /* UIViewController+UIAlert.swift */,
+			);
+			path = "DEXter-iOS";
+			sourceTree = "<group>";
+		};
+		D850BF6801A0CB26E9D4E33CAB54D22E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570E267A5F93389D3E8315BF3020EF07 /* DEXterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9E83702C3BB161CE3DB99A6539D995A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A473C1AF1B99F4DFE6950D13CC3C93A /* Carthage */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2618832AFA123324C51486AA8362CD4B /* DEXterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87E54DAA679F98A0F55C4F6216E1825 /* Build configuration list for PBXNativeTarget "DEXterDemo" */;
+			buildPhases = (
+				9B70F7B0A151194ED616D888DAD33588 /* Sources */,
+				A9A995F3F6B1AE0F2F2E02539993ACF2 /* Carthage */,
+				EA34CA5948A895BC5859AA46DC4378ED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DEXterDemo;
+			productName = DEXterDemo;
+			productReference = 570E267A5F93389D3E8315BF3020EF07 /* DEXterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B6B5D3958722A1D6909A9EE1D0C094D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4CA36CDB4AF6B09EEF9D8B854AF30BE7 /* Build configuration list for PBXProject "DEXter-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 461A175BBF32F6588297F688567469A4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2618832AFA123324C51486AA8362CD4B /* DEXterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9A995F3F6B1AE0F2F2E02539993ACF2 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/TezosKit.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/TezosKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B70F7B0A151194ED616D888DAD33588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC22D0701C0DB3C47E8E707EF3F15BDC /* Address+ContractAddress.swift in Sources */,
+				53F5AA7C2C5BC034B68F651C8AAAF8DB /* AppDelegate.swift in Sources */,
+				70E5B6DA7EC0FEBD88689CE595097092 /* ContractSelectorView.swift in Sources */,
+				ED0D8688A093E86E989A002EB431A0C4 /* ContractSelectorViewController.swift in Sources */,
+				C486272FB8B5EEF1035A0B41872256D4 /* ExchangeContractView.swift in Sources */,
+				C9696AF689A33FE9A0CF270F897DFAD0 /* ExchangeContractViewController.swift in Sources */,
+				2236205603D5FB7E3F828F88EDD6A011 /* TokenContractView.swift in Sources */,
+				4D4DD0C754693B5AC5F6091C973A23FB /* TokenContractViewController.swift in Sources */,
+				5A1E62FB38F3AF8DFA76336592F2E173 /* UIButton+TezosKit.swift in Sources */,
+				06D82348EDC811718B52089759B2AA0D /* UIColor+TezosKit.swift in Sources */,
+				B4B644A5CD769CFBB5DD6772CBB78B96 /* UIViewController+UIAlert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1416F073C395BF170F01D6DF64904909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4081461A22D4A0699553C1071417DE67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "DEXter-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keefertaylor.DEXteriOS;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93DF26AC002EC977A19FDECF544BD9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B6A576915034BF525D96F4642E6B07DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "DEXter-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keefertaylor.DEXteriOS;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CA36CDB4AF6B09EEF9D8B854AF30BE7 /* Build configuration list for PBXProject "DEXter-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DF26AC002EC977A19FDECF544BD9BA /* Debug */,
+				1416F073C395BF170F01D6DF64904909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A87E54DAA679F98A0F55C4F6216E1825 /* Build configuration list for PBXNativeTarget "DEXterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4081461A22D4A0699553C1071417DE67 /* Debug */,
+				B6A576915034BF525D96F4642E6B07DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B6B5D3958722A1D6909A9EE1D0C094D /* Project object */;
+}
