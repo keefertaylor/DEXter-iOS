@@ -1,11 +1,12 @@
 // Copyright Keefer Taylor, 2019.
+import TezosKit
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-  var vc: UIViewController?
   var window: UIWindow?
+  let tezosNodeClient = TezosNodeClient()
 
   func application(
     _ application: UIApplication,
@@ -13,12 +14,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   ) -> Bool {
     let window = UIWindow(frame: UIScreen.main.bounds);
 
-    let viewController = TokenContractViewController()
+    let tokenContractViewController = TokenContractViewController(
+      tezosNodeClient: tezosNodeClient,
+      tokenContractAddress: .tokenContract
+    )
+    let navController = UINavigationController(rootViewController: tokenContractViewController)
+    navController.navigationBar.barTintColor = .tezosBlue
 
-    window.rootViewController = viewController
+    window.rootViewController = navController
     window.makeKeyAndVisible()
 
-    self.vc = viewController
     self.window = window
 
     return true

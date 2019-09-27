@@ -4,15 +4,24 @@ import UIKit
 
 class TokenContractViewController: UIViewController {
   private let tezosNodeClient: TezosNodeClient
+  private let tokenContractClient: TokenContractClient
   private let tokenContractView: TokenContractView
 
-  public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-    tokenContractView = TokenContractView()
-    tezosNodeClient = TezosNodeClient()
+  public init(tezosNodeClient: TezosNodeClient, tokenContractAddress: Address) {
+    self.tezosNodeClient = tezosNodeClient
+    self.tokenContractClient = TokenContractClient(
+      tokenContractAddress: tokenContractAddress,
+      tezosNodeClient: tezosNodeClient
+    )
+    tokenContractView = TokenContractView(tokenContractAddress: tokenContractAddress)
 
-    super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    super.init(nibName: nil, bundle: nil)
 
     tokenContractView.delegate = self
+  }
+
+  public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+    fatalError()
   }
 
   @available(*, unavailable) required init?(coder aDecoder: NSCoder) {
@@ -21,6 +30,8 @@ class TokenContractViewController: UIViewController {
 
   public override func loadView() {
     self.view = tokenContractView
+
+    self.navigationItem.title = "Token Contract"
   }
 
   private func showAlert(title: String, message: String) {
